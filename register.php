@@ -7,40 +7,40 @@
 </head>
 <body>
     
-        <div class="col-sm-10" style="width: 400px; margin-left: 450px; margin-top: 45px;">                          
+        <div class="col-sm-10" style="width: 700px; margin-left: 450px; margin-top: 45px;">                          
             <div class="jumbotron">
                  <div class="form-group" style="margin-top: -50px;">
-                    <h2 style="margin-left: 140px;">
+                    <h1 style="margin-left: 200px;">
                         Sign Up
-                    </h2>
+                    </h1>
                 </div>
                 <hr>
-                <form class="form-horizontal" style="margin- left: 60px">
+                <form class="form-horizontal" style="margin-left: 70px;">
                    <div class="container">
 		<div class="row">
-			<div class=" co-md-offset-4 col-md-6">
+			<div class=" co-md-offset-6 col-md-10">
            
 	            <form action="action/register.php" method="post">
                 
-	                <div class="form-group input-group">                       
+	                <div class="form-group">                       
 	                    <label for="first_name">First Name</label>
-	                    <input class="form-control" type="text" style="width: 250px;" name="first_name" id="first_name" placeholder="First Name" required>
+	                    <input class="form-control" type="text" style="width: 450px;" name="first_name" id="first_name" placeholder="First Name" required>
 	                </div>
 	                <div class="form-group">
 	                    <label for="last_name">Last Name</label>
-	                    <input class="form-control" type="text" style="width: 250px;" name="last_name" id="last_name" placeholder="Last Name" required>
+	                    <input class="form-control" type="text" style="width: 450px;" name="last_name" id="last_name" placeholder="Last Name" required>
 	                </div>
 	                <div class="form-group">
 	                    <label for="username">Username</label>
-	                    <input class="form-control" type="text" style="width: 250px;" name="username" id="username" placeholder="Username" required>
+	                    <input class="form-control" type="text" style="width: 450px;" name="username" id="username" placeholder="Username" required>
 	                </div>
 	                <div class="form-group">
 	                    <label for="password">Password</label>
-	                    <input class="form-control" type="password" style="width: 250px;"  name="password" id="password" placeholder="Password" required>
+	                    <input class="form-control" type="password" style="width: 450px;"  name="password" id="password" placeholder="Password" required>
 	                </div>
                      <div class="form-group">
 	                    <label for="confirm password">Confirm Password</label>
-	                    <input class="form-control" type="confirm password" style="width: 250px;"  name="password" id="password" placeholder="Password" required>
+	                    <input class="form-control" type="confirm password" style="width: 450px;"  name="password" id="password" placeholder="Password" required>
 	                </div>
                     
 	                <div class="text-center" style="margin-left:75px;">
